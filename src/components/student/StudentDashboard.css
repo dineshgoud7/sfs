@@ -1,0 +1,31 @@
+/* src/components/Student/StudentDashboard.css */
+.student-dashboard {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.242); /* Slightly white background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.student-dashboard h2 {
+    color: #333; /* Darker color for heading */
+}
+
+.student-links {
+    display: flex; /* Use flexbox to display links in a row */
+    justify-content: space-around; /* Space out the links evenly */
+    margin-top: 20px; /* Add some margin on top */
+}
+
+.student-links a {
+    text-decoration: none;
+    color: #2e342e; /* Link color */
+    padding: 10px 20px; /* Add padding for clickable area */
+    border: 1px solid #4CAF50; /* Add a border around the links */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s, color 0.3s; /* Transition for hover effects */
+}
+
+.student-links a:hover {
+    background-color: #4CAF50; /* Change background on hover */
+    color: white; /* Change text color on hover */
+}
